@@ -1,0 +1,38 @@
+# Claude 排除列表
+# 缓存和临时文件
+**/cache/**
+**/debug/**
+**/transcripts/**
+**/sessions/**
+**/history.jsonl
+**/file-history/**
+**/shell-snapshots/**
+**/stats-cache.json
+**/statsig/**
+**/projects/**
+**/todos/**
+**/tasks/**
+**/plans/**
+**/session-env/**
+**/downloads/**
+**/ide/**
+
+# OpenCode 排除列表
+**/node_modules/**
+**/oh-my-opencode-dev/**
+**/.git/**
+**/*.bak
+**/bun.lock
+**/TODO
+**/comment.md
+**/dockerps
+**/start.sh
+**/oh-my-opencode.json
+**/oh-my-opencode copy.json
+
+# 通用排除
+**/*.log
+**/*.cache
+**/*.tmp
+**/.DS_Store
+**/Thumbs.db
